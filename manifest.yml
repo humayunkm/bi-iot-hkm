@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bi-iot-hkm
+  host: bi-iot-hkm
+  disk_quota: 1024M
+  services:
+  - bi-iot-hkm-cloudantNoSQLDB
+  - bi-iot-hkm-iotf-service
+  - Speech to Text-9g
+  - Language Translator-3o
